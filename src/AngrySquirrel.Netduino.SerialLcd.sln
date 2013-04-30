@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngrySquirrel.Netduino.SerialLcd", "AngrySquirrel.Netduino.SerialLcd\AngrySquirrel.Netduino.SerialLcd.csproj", "{DEF088ED-F35F-4E88-8C7C-402F496305BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58AE687C-1BB6-47A9-A2F6-6AA952A4A7B4}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.proj = NuGet.proj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEF088ED-F35F-4E88-8C7C-402F496305BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF088ED-F35F-4E88-8C7C-402F496305BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF088ED-F35F-4E88-8C7C-402F496305BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF088ED-F35F-4E88-8C7C-402F496305BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF53011D-B1D7-4E56-956F-E6D6F8D3468A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
