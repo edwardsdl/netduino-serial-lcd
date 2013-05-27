@@ -57,7 +57,7 @@ namespace AngrySquirrel.Netduino.SerialLcd
         /// </remarks>
         public void Reset()
         {
-            Send(new byte[] {0x12});
+            SerialPort.WriteByte(0x12);
         }
 
         /// <summary>

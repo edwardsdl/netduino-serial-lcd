@@ -12,16 +12,16 @@ namespace Example
     {
         #region Public Methods and Operators
 
-        /// <summary>
-        /// Program entry point
-        /// </summary>
-        public static void Main()
-        {
-            var serialLcdOutput = new SerialPort(SerialPorts.COM1, 9600, Parity.None, 8, StopBits.One);
-            serialLcdOutput.Open();
+	    /// <summary>
+	    /// Program entry point
+	    /// </summary>
+	    public static void Main()
+	    {
+		    var serialLcdOutput = new SerialPort(SerialPorts.COM1, 9600, Parity.None, 8, StopBits.One);
+		    serialLcdOutput.Open();
 
-            var serialLcd = new SerialLcd(serialLcdOutput);
-            serialLcd.Clear();
+			var serialLcd = new SerialLcd(serialLcdOutput);
+			serialLcd.Clear();
             serialLcd.SetBacklightBrightness(Brightness.Medium);
             serialLcd.Write("Hello, world!");
 
